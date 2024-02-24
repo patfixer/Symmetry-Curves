@@ -1,4 +1,16 @@
 # Swirl lines 
+`ctx.fillStyle = "darkred";` Background color on canvas 
+
+`ctx.strokeStyle = "lightblue";` Colors the line 
+
+`ctx.lineCap = "round";` This put caps on the end of the line.
+
+`let size = 200;` Or the length of the line.
+
+`let sides = 30;`
+
+`let maxLevel = 90`
+
 ```js
 window.addEventListener("load", function () {
   const canvas = document.getElementById("canvas-one");
